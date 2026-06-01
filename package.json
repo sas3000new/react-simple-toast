@@ -1,0 +1,30 @@
+{
+  "name": "react-simple-toast",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/react-simple-toast.umd.js",
+  "module": "./dist/react-simple-toast.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/react-simple-toast.es.js",
+      "require": "./dist/react-simple-toast.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "keywords": ["react", "toast", "notification", "simple"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ sas3000new/react-simple-toast.git"
+  }
+}
