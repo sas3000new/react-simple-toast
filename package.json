@@ -1,6 +1,6 @@
 {
-  "name": "react-simple-toast",
-  "version": "1.0.0",
+  "name": "@sas3000new/react-simple-toast",
+  "version": "1.0.1",
   "type": "module",
   "main": "./dist/react-simple-toast.umd.js",
   "module": "./dist/react-simple-toast.es.js",
